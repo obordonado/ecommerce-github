@@ -1,0 +1,37 @@
+@import '../../colors.scss';
+
+header {
+    min-width: 495px;
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(130deg,rgb(82, 61, 45),#555,rgb(240, 235, 233));
+    box-shadow: 0px 10px 10px 10px;    
+    
+    color: $medio;
+    font-size: larger;
+
+    a{
+        all: unset;
+        padding: 0.5em;
+        background-color: $cambio;
+        cursor: pointer;
+        border-radius: .4em;
+        transition: all 0.5s;
+    }
+    a:hover{
+        background-color: $cambio;
+        color: $claro;
+    }    
+    .logo{        
+        width: 5em; 
+        box-shadow: 0px 10px 10px 10px;    
+        margin-bottom: .5em;
+    }
+    .inicio,.register,.login{
+        min-width: 5em;
+        box-shadow: 0px 10px 10px 10px;    
+
+    }
+}
