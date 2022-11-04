@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import auth from "../../functions/auth";
-import Header from "../Header/Header";
 import './login.scss';
 
 const Login = () => {
@@ -13,11 +12,7 @@ const Login = () => {
 
   const navigate = useNavigate();
 
-  // const signedIn = () => {
 
-  //   return (JSON.parse(localStorage.getItem("user")))};
-    
-  //   signedIn();  
 
   const handleLogin = async (e) => {  
     e.preventDefault();
@@ -33,10 +28,6 @@ const Login = () => {
             navigate("/");
 
            },1500)
-
-          // navigate("/signed");
-          // window.location.reload();
-
         },
         (error) => {
           setMsgError(error.response.data.message);

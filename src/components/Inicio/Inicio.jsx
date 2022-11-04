@@ -1,6 +1,5 @@
 import React, { useEffect, useState} from 'react';
 import { allProducts } from '../../functions/functions';
-import Header from '../Header/Header';
 import './inicio.scss';
 
 

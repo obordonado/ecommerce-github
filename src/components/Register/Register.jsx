@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import auth from "../../functions/auth";
-import Header from '../Header/Header';
 import './Register.scss';
 
 const Register = ()=>{
