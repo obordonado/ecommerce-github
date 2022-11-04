@@ -5,7 +5,7 @@ import './Header.scss'
 const Header = (props) => {
   return(
     <header>
-      <img className='logo' src="/logo.jpg"/>
+      <img className='logo' src="../../../public/logo.jpg"/>
       <NavLink to= "/">
       <span className="inicio">Home</span>
       </NavLink>
